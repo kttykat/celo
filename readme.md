@@ -6,3 +6,7 @@ View & Visit someones github repos within the terminal.<br/>
 ---
 `celo` -> go app<br/>
 `api` -> ts express api
+
+```sh
+go install ./celo
+```
