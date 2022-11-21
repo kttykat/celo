@@ -17,7 +17,7 @@ func main() {
 		fmt.Println("celo <github_user>")
 	} else {
 		name := cli[0]
-		url := fmt.Sprintf(`http://localhost:5124/%v`, name)
+		url := fmt.Sprintf(`https://celo.saige.systems/%v`, name)
 
 		res, err := http.Get(url)
 		if err != nil {
